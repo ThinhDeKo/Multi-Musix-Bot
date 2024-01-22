@@ -57,22 +57,22 @@ module.exports = {
         }
       )
       .setThumbnail(botUser.avatarURL({ dynamic: true, format: 'png', size: 1024 }))
-      .setImage(`https://cdn.discordapp.com/attachments/1175487983915376662/1175668219592331385/Multi_Musix_bot.png?ex=656c115a&is=65599c5a&hm=f31305678f6f5621228bae42312b77577380b5757c806469799392bd854a265f&`);
+      .setImage(`https://cdn.discordapp.com/attachments/985425793716977684/1001405320259711047/samurai.jpg?ex=65b8b2e1&is=65a63de1&hm=f3794d131218b4d79a941c37df813af8668c04ad2b795e20d5bcc75ed8c8e872&`);
 
     const button1 = new ButtonBuilder()
-      .setLabel('YouTube')
-      .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
-      .setStyle(ButtonStyle.Link);
+        .setLabel("TikTok")
+        .setURL("https://www.tiktok.com/@m.setups")
+        .setStyle(ButtonStyle.Link);
 
-    const button2 = new ButtonBuilder()
-      .setLabel('Discord')
-      .setURL('https://discord.gg/FUEHs7RCqz')
-      .setStyle(ButtonStyle.Link);
+      const button2 = new ButtonBuilder()
+        .setLabel("Discord")
+        .setURL("https://discord.gg/s2eH4vxd")
+        .setStyle(ButtonStyle.Link);
 
-    const button3 = new ButtonBuilder()
-      .setLabel('Code')
-      .setURL('https://replit.com/@BEASTGAMERS1/MULTI-MUSIC-BOT-v200?v=1')
-      .setStyle(ButtonStyle.Link);
+      const button3 = new ButtonBuilder()
+        .setLabel("Code")
+        .setURL("https://replit.com/@BEASTGAMERS1?tab=community")
+        .setStyle(ButtonStyle.Link);
       
     const row = new ActionRowBuilder()
       .addComponents(button1, button2, button3);
